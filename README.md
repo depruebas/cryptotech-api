@@ -4,6 +4,9 @@
 
 <b>Usage</b> http://cryptotech.depruebas.com/v1/price?symbol=BTCUSDT
 
+if not send parameters as symbol=BTCUSDT return all results.
+
+
 <b>Returns</b>, always return json with the same structure 
 
 <b>Result OK</b>

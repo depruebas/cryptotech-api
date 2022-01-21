@@ -4,6 +4,12 @@
 
 <b>Usage</b> http://cryptotech.depruebas.com/v1/price?symbol=BTCUSDT
 
+<b>to test it local</b> need install php and php-curl extension, and execute php server 
+
+<code>php -S localhost:8080</code>
+
+and go to browser and launch http://localhost:8080/v1/price?symbol=BTCUSDT
+
 if not send parameters as symbol=BTCUSDT return all results.
 
 

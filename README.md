@@ -2,7 +2,7 @@
 
 <b>Needs</b> write permissions logs directory chmod 777 logs/ -R
 
-<b>Usage</b> http://cryptotech.depruebas.com/v1/price?symbol=BTCUSDT
+<b>Endpoint</b> http://cryptotech.depruebas.com/v1/price?symbol=BTCUSDT
 
 <b>to test it local</b> need install php and php-curl extension, and execute php server 
 

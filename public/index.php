@@ -41,14 +41,14 @@
   # Abrimos la conexión a la base de datos para poder trabajar con ella en toda la aplicacion
 	$_config = ConfigClass::get("config.config.database")['default'];
 
-  $connection = PDOManager::Connection( $_config);
+  //$connection = PDOManager::Connection( $_config);
 
   # Instanciamos la clase Core que es la que verificaras las rutas, la autenficacion y las acciones
   # a realizar por la API
   $core = new APIManager();
-  $return = $core->Init( $connection);
+  $return = $core->Init();
 
-  $connection = null;
+  //$connection = null;
 
   # Enviamos el resultado de la de proceso de la API a quien ha hecho la peticion
   echo $return;

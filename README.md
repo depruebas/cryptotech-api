@@ -8,7 +8,7 @@
 
 <code>php -S localhost:8080</code>
 
-and go to browser and launch http://localhost:8080/v1/price?symbol=BTCUSDT
+in the public directory and go to browser and launch http://localhost:8080/v1/price?symbol=BTCUSDT
 
 if not send parameters as symbol=BTCUSDT return all results. The symbol (BTCUSDT) can be any that is in binance as BTCUSDT, ETHBUSD, ROSEBUSD ... 
 
